@@ -1,0 +1,48 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.sqlite3
+instance/
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# === Flask ===
+*.db
+*.db-journal
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.log
+flask_session/
+*.pem
+
+# === PyInstaller ===
+dist/
+build/
+*.spec
+
+# === VS Code ===
+.vscode/
+
+# === macOS ===
+.DS_Store
+
+# === Windows ===
+Thumbs.db
+ehthumbs.db
+
+# === React Frontend ===
+frontend/node_modules/
+frontend/build/
+frontend/.env
